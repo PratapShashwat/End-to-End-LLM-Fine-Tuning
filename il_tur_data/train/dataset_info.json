@@ -1,0 +1,70 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "summ",
+  "dataset_name": "il-tur",
+  "dataset_size": 216957607,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Exploration-Lab/IL-TUR@d16219ad0423cc181ec8460d930fd10a907664b6/summ/train-00000-of-00001.parquet": {
+      "num_bytes": 106506362,
+      "checksum": null
+    },
+    "hf://datasets/Exploration-Lab/IL-TUR@d16219ad0423cc181ec8460d930fd10a907664b6/summ/test-00000-of-00001.parquet": {
+      "num_bytes": 1661957,
+      "checksum": null
+    }
+  },
+  "download_size": 108168319,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "document": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "summary": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "num_doc_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "num_summ_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 325125926,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 213640923,
+      "num_examples": 7030,
+      "dataset_name": "il-tur"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3316684,
+      "num_examples": 100,
+      "dataset_name": "il-tur"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

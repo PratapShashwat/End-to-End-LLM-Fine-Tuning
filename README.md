@@ -18,8 +18,7 @@ This repository serves as a complete archive of the research experiments, includ
 
 ### 1. Baseline Evaluation (Zero-Shot)
 The project began by establishing a baseline using the stock `gemma-2b-it` model.
-* **Observation:** The base model struggled with the unique structure of Indian legal texts, often hallucinating facts or omitting sentencing details.
-* **Metric:** ROUGE-1 Score of **0.2510**.
+* **Observation:** The base model struggled with the unique structure of Indian legal texts, omitting sentencing details.
 
 ### 2. Efficient Fine-Tuning (HPC Cluster)
 The model was fine-tuned on the IL-TUR training split. To handle the 2B parameter model on a single GPU, the following optimizations were applied:
