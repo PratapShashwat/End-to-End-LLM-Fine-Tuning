@@ -1,0 +1,136 @@
+MANUAL EVALUATION REPORT: BASELINE MODEL
+Dataset: IL-TUR (Indian Legal Text Summarization)
+Subset: Test Set (Random Sample)
+Evaluator: Student
+Date: February 10, 20261.
+
+METHODOLOGY:
+    To assess the qualitative performance of the Baseline Model (Gemma-2B), I conducted a manual review of randomly selected documents from the Test Set.
+    The Generated Summaries were compared against the Gold Standard (Reference) Summaries to identify:
+        Hallucinations: Did the model invent facts?
+        Omission Bias: Did the model miss critical legal details?
+        Prosecution Bias: Did the model ignore the defense's arguments?
+        
+CASE-BY-CASE ANALYSIS:
+    
+    Case ID: 6413 (Criminal Appeal - Prevention of Corruption Act)
+    Case Type: Bribery / Criminal Misconduct.
+    Accuracy: The model correctly identified the accused (Accountant), the amount (Rs. 100), and the core allegation (bribery for license reinstatement).
+    Defense Coverage: Excellent. The model explicitly captured the accused's defense that the money was a "loan repayment," which is often missed by smaller models.
+    Issues Found (Omission):
+        Context: The specific reason for the bribe demand (substandard food served in the canteen leading to a show-cause notice) was generalized as just "reinstating the license.
+        "Sentencing: The Reference Summary explicitly states the punishment ("15 months rigorous imprisonment"). The Generated Summary omitted the specific sentence, stating only that the "appeal was dismissed.
+        "Verdict: Factually accurate but lacked critical sentencing details.
+        
+    Case ID: 6245 (Civil Appeal - Public Service Commission)
+    Case Type: Administrative Law / Recruitment Dispute.
+    Accuracy: High. The model correctly identified the administrative error ("improper feeding" into the computer) that led to the exclusion of meritorious candidates.
+    Resolution: It correctly summarized the Supreme Court's complex relief: verifying that the written exam should not be cancelled, but the interviews should be re-held.
+    Issues Found: None. The summary captured all key legal points, the dispute, and the final order equivalent to the reference.
+    Verdict: High-fidelity summary with no loss of critical information.
+    
+    
+QUANTITATIVE METRICS (Sample Size: 2)
+    Metric Score Observation 
+    Hallucination Rate 0%(0/2) The model did not invent any names, crimes, or statutes.
+    Defense Bias Low Defense arguments were represented clearly in the criminal case.
+    Omission Rate (Sentencing) 50%(1/2) The model failed to extract the specific prison term in the criminal case.
+    Omission Rate (Facts) 0% All core legal facts (parties, charges, verdict) were present
+    
+CONCLUSION:
+    The Baseline Model demonstrates strong capability in abstractive summarization, successfully restructuring dense legal text into readable sections ("Background", "Arguments", "Decision").
+    Strengths:
+        High factual faithfulness (Zero hallucinations in sample).Strong ability to summarize complex administrative orders (Case 6245).Neutral tone that includes Defense arguments.
+    Weaknesses:
+        Sentencing Omission: The model tends to summarize the outcome ("Conviction upheld") but may omit the specific quantum of punishment (e.g., "15 months jail").
+
+
+
+
+
+============================================================
+      MANUAL BIAS CHECK (2 FILES)
+============================================================
+
+📄 DOCUMENT 1 (ID: 6413)
+------------------------------
+🛑 GENERATED SUMMARY:
+## Summary of the Legal Document:
+
+This document is a detailed summary of a legal appeal against a conviction for bribery.
+
+**The Case:**
+
+* **Accused:** Sunderamoorthy, an accountant at a Tamil Nadu Forest Training School.
+* **Charges:**  He was convicted under sections 161 (criminal misconduct) and 5(2) read with 5(1)(d) of the Prevention of Corruption Act for accepting a bribe of Rs. 100 from a canteen contractor.
+* **Prosecution Case:** The prosecution alleged that Sunderamoorthy demanded and received the bribe to help the contractor get his canteen license reinstated.
+* **Defense:** Sunderamoorthy claimed that the money was a loan repayment and that he had no intention of accepting a bribe.
+
+**Key Points:**
+
+* **Evidence:** The prosecution presented evidence of the bribe, including the money recovered from Sunderamoorthy, and testimony from witnesses who witnessed the bribe exchange.
+* **High Court Decision:** The High Court upheld the conviction, finding the evidence sufficient to establish the bribe. They also noted that the presumption of bribery under section 4 of the Prevention of Corruption Act was not rebutted.
+* **Appeal Arguments:** Sunderamoorthy appealed, arguing that:
+    * The evidence was insufficient to prove the bribe.
+    * The explanation offered by Sunderamoorthy was plausible and should be considered.
+    * The circumstances of the case were improbable.
+* **Court's Decision:** The Court dismissed the appeal. They found that the prosecution's evidence was strong enough to establish the bribe, and Sunderamoorthy failed to provide sufficient evidence to rebut the presumption of bribery.
+
+**Legal Principles:**
+
+* **Presumption of Bribery:** The court emphasized that the presumption of bribery arises when a person receives money that is not due to them as legal remuneration. The burden of proof lies on the accused to rebut this presumption.
+* **Burden of Proof:** The accused must provide evidence that proves their explanation is true and not merely plausible.
+* **Section 4 of the Prevention of Corruption Act:** This section creates a presumption of bribery when a person receives money that is not due to them as legal remuneration.
+
+
+**Outcome:** The appeal was dismissed, upholding the conviction for bribery.
+
+✅ REFERENCE SUMMARY:
+The appellant was an Accountant cum Headclerk in the Forest Training School, PW 3 the Principal of the training school, and PW I the canteen contractor. The prosecution alleged that on the basis of a complaint made by the appel lant that the food served in the canteen was substandard, PW 3 issued a show cause notice to PW I, as to why the licence for the canteen should not be cancelled and that thereafter the appellant sent for PW I and demanded a bribe of Rs. I00. As the appellant pressed the demand from PW 1, the latter made a complaint to PW 6, the inspector, who arranged a trap. The trap was arranged. PW I handed over the money to the appellant, who received the same. PW 6 conducted the phe nolphthalein test with reference to the fingers of the appellant. The test was positive. The currency notes were seized, and the appellant arrested chargesheeted. The Trial Judge accepted the prosecution evidence, rejected the pleas of the appellant that PW 1 had returned the amount of Rs. 100 due to him, that there had been no demand for a bribe as there had been no occasion for doing so, and recorded conviction. The appellant appealed to the High Court and contended that there was no independent evidence regarding the demand, the messenger who had contacted PW 1 at the behest of the appellant had not been examined, the solitary evidence of PW I is insufficient and that the explanation offered by the appellant was probable and that there is no conclusive evidence to hold that the appellant was guilty. The High Court took the view that the recovery of the currency notes from the appellant prove his guilty conduct, in view of the presumption arising under section 4(1) 01 ' the Prevention of Corruption Act and that the same has not been rebutted and held that though the conviction under 335 section 161 I.P.C. and section 5(2) of the Prevention of Corruption Act, 1947 is to be maintained, no separate sen tence need be awarded under section 161 I.P.C. It, accord ingly, confirmed the conviction of the appellant and sen tenced him to undergo rigorous imprisonment for 15 months. In the appeal to this court, it was contended that the appellant had a consistent case even from the earliest opportunity, that the currency notes found in his possession was the money returned by PW I, and that the presumption, if any, arising under section 4 was rebutted, and the convic tion cannot therefore be sustained. Dismissing the appeal, this Court HELD: 1. The appellant has not even by preponderance of probability succeeded in rebutting the presumption under section 4(1) of the Prevention of Corruption Act. [338C] 2. The Court has no choice once it is established that the accused person has received a sum of money which was not due to him as a legal remuneration, but to draw a presump tion that the person received the money as a motive of reward. However, it is open to that person to show that though that money was not due to him as legal remuneration, it was legally due to him in some other manner or that he received it under a transaction or an arrangement which was lawful. The explanation offered by the person should be a true one and not one which is merely plausible. [339B C; F] Dhanvantrai Balwantrai Desai vs State of Maharashtra, AIR 1964 SC 575, referred to.
+
+============================================================
+
+📄 DOCUMENT 2 (ID: 6245)
+------------------------------
+🛑 GENERATED SUMMARY:
+This legal document is a judgment from the Supreme Court of India, dealing with appeals against a decision by the Allahabad High Court.
+
+**Here's a breakdown of the case:**
+
+**Background:**
+
+* The Uttar Pradesh Public Service Commission (UPPSC) conducted a recruitment examination for the post of Upper Zila Basic Shiksha Adhikari (Women), District Inspectress of Girls Schools/Associate Regional Inspectress of Girls Schools in Uttar Pradesh Educational Service Junior Scale (Women's Branch).
+* The recruitment process involved two stages: a written exam and an interview/personality test.
+* The written exam was initially conducted, and successful candidates were shortlisted for the interview.
+* However, due to technical issues with the computer system, some candidates with higher scores in the written exam were excluded from the interview process, while others with lower scores were selected.
+* The UPPSC discovered this error and decided to cancel the entire recruitment process and hold a fresh examination.
+
+**The Legal Dispute:**
+
+* The High Court upheld the UPPSC's decision to cancel the written exam.
+* The appellants (candidates who were initially excluded) appealed to the Supreme Court, arguing that the cancellation was unjustified.
+
+**Supreme Court's Decision:**
+
+* The Supreme Court overturned the High Court's decision.
+* The Court found that the cancellation of the written exam was not justified.
+* The Court reasoned that the issue was limited to excluding certain candidates from the interview, and a fresh interview could have been conducted based on the original written exam results.
+* The Court ordered the UPPSC to:
+    * Vacate the order cancelling the written exam.
+    * Maintain the results of the written exam as the basis for the interview stage.
+    * Conduct a fresh selection process based on both the written and interview results.
+    * Complete the interview process within four months.
+
+**Key Takeaways:**
+
+* The Supreme Court emphasized the importance of careful handling of recruitment processes to avoid unnecessary delays and litigation.
+* The Court highlighted the importance of ensuring fairness and transparency in the selection process.
+* The Court also clarified that the selection of two Scheduled Caste candidates and five Backward Class candidates, who were initially selected, would remain unaffected.  
+
+
+**Overall, the Supreme Court's decision emphasizes the importance of procedural fairness and the need for the UPPSC to handle recruitment processes with greater care to avoid unnecessary delays and legal challenges.**
+
+✅ REFERENCE SUMMARY:
+The Uttar Pradesh Public Service Commission conducted recruitment examination to the post of Upper Zila Basic Shiksha Adhikari (Women) in two stages written test and interview. The Commission cancelled the entire recruitment examination for re holding it, after it was found that due to improper feeding into the computer candidates who secured lesser marks in the written examination were interviewed and finally selected while candidates who had better performance were not called for interview. Writ petitions challenging the action of the Commission were dismissed by the High Court. Hence these appeals. Allowing the appeals and setting aside the judgment of the High Court, this Court, HELD: When no defect was pointed out in regard to the written examination and the sole objection was confined to exclusion of a group of successful candidates in the written examination from the interview, there was no justification for cancelling the written part of the recruitment examina tion. [125G] The situation on the other hand could have been appro priately met by setting aside the recruitment and asking for a fresh interview of all eligible candidates on the basis of the written examination and selection of those who on the basis of the written and the freshly held interview became eligible for selection. [125H; 126A]
+
+------------------------------
