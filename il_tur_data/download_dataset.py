@@ -7,7 +7,7 @@ CONFIG_NAME = "summ"   # <--- CHANGED to lowercase (Critical Fix)
 SAVE_PATH = "./il_tur_data"
 
 # PASTE YOUR TOKEN HERE
-MY_TOKEN = "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" 
+MY_TOKEN = "hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
 
 print(f"--- DOWNLOADING {DATASET_ID} (Config: {CONFIG_NAME}) ---")
 
