@@ -1,0 +1,167 @@
+{
+    "tested_eval_file": "G_evaluation_results_onG.json",
+    "insights": {
+        "top_10_avg_rouge": 0.4828633333333333,
+        "top_10_avg_eval": 0.86075,
+        "mid_10_avg_rouge": 0.28225,
+        "mid_10_avg_eval": 0.8564999999999999,
+        "bot_10_avg_rouge": 0.13501000000000002,
+        "bot_10_avg_eval": 0.77575
+    },
+    "top_10_documents": [
+        {
+            "doc_id": "5937",
+            "avg_rouge": 0.6723333333333334,
+            "eval_score": 0.9325
+        },
+        {
+            "doc_id": "6413",
+            "avg_rouge": 0.5048666666666667,
+            "eval_score": 0.8500000000000001
+        },
+        {
+            "doc_id": "4071",
+            "avg_rouge": 0.5028333333333334,
+            "eval_score": 0.8500000000000001
+        },
+        {
+            "doc_id": "4963",
+            "avg_rouge": 0.48790000000000006,
+            "eval_score": 0.8500000000000001
+        },
+        {
+            "doc_id": "6728",
+            "avg_rouge": 0.4652,
+            "eval_score": 0.8500000000000001
+        },
+        {
+            "doc_id": "1406",
+            "avg_rouge": 0.46313333333333334,
+            "eval_score": 0.875
+        },
+        {
+            "doc_id": "4807",
+            "avg_rouge": 0.45183333333333336,
+            "eval_score": 0.875
+        },
+        {
+            "doc_id": "6270",
+            "avg_rouge": 0.44133333333333336,
+            "eval_score": 0.85
+        },
+        {
+            "doc_id": "5141",
+            "avg_rouge": 0.42110000000000003,
+            "eval_score": 0.8500000000000001
+        },
+        {
+            "doc_id": "3356",
+            "avg_rouge": 0.41809999999999997,
+            "eval_score": 0.8250000000000001
+        }
+    ],
+    "middle_10_documents": [
+        {
+            "doc_id": "6003",
+            "avg_rouge": 0.20249999999999999,
+            "eval_score": 0.9199999999999999
+        },
+        {
+            "doc_id": "5142",
+            "avg_rouge": 0.41453333333333336,
+            "eval_score": 0.8500000000000001
+        },
+        {
+            "doc_id": "5538",
+            "avg_rouge": 0.29183333333333333,
+            "eval_score": 0.85
+        },
+        {
+            "doc_id": "2796",
+            "avg_rouge": 0.3388,
+            "eval_score": 0.85
+        },
+        {
+            "doc_id": "3893",
+            "avg_rouge": 0.3100666666666667,
+            "eval_score": 0.85
+        },
+        {
+            "doc_id": "3602",
+            "avg_rouge": 0.25406666666666666,
+            "eval_score": 0.8
+        },
+        {
+            "doc_id": "2627",
+            "avg_rouge": 0.3216,
+            "eval_score": 0.8
+        },
+        {
+            "doc_id": "5994",
+            "avg_rouge": 0.22606666666666667,
+            "eval_score": 0.8875
+        },
+        {
+            "doc_id": "2593",
+            "avg_rouge": 0.22513333333333332,
+            "eval_score": 0.825
+        },
+        {
+            "doc_id": "5861",
+            "avg_rouge": 0.2379,
+            "eval_score": 0.9325
+        }
+    ],
+    "bottom_10_documents": [
+        {
+            "doc_id": "4480",
+            "avg_rouge": 0.18636666666666668,
+            "eval_score": 0.9375
+        },
+        {
+            "doc_id": "496",
+            "avg_rouge": 0.18606666666666669,
+            "eval_score": 0.8
+        },
+        {
+            "doc_id": "232",
+            "avg_rouge": 0.1759666666666667,
+            "eval_score": 0.9375
+        },
+        {
+            "doc_id": "4316",
+            "avg_rouge": 0.17263333333333333,
+            "eval_score": 0.9325
+        },
+        {
+            "doc_id": "5364",
+            "avg_rouge": 0.14379999999999998,
+            "eval_score": 0.875
+        },
+        {
+            "doc_id": "3168",
+            "avg_rouge": 0.1424,
+            "eval_score": 0.8875000000000001
+        },
+        {
+            "doc_id": "4917",
+            "avg_rouge": 0.13073333333333334,
+            "eval_score": 0.65
+        },
+        {
+            "doc_id": "2122",
+            "avg_rouge": 0.11113333333333335,
+            "eval_score": 0.8625
+        },
+        {
+            "doc_id": "5266",
+            "avg_rouge": 0.05636666666666667,
+            "eval_score": 0.1
+        },
+        {
+            "doc_id": "6778",
+            "avg_rouge": 0.04463333333333334,
+            "eval_score": 0.775
+        }
+    ]
+}

@@ -1,0 +1,807 @@
+[
+  {
+    "id": "4963",
+    "faithfulness": 0.53,
+    "coverage": 0.657,
+    "fluency": 0.656,
+    "legal_reasoning": 0.495,
+    "overall": 0.584
+  },
+  {
+    "id": "5994",
+    "faithfulness": 0.242,
+    "coverage": 0.43,
+    "fluency": 0.724,
+    "legal_reasoning": 0.369,
+    "overall": 0.441
+  },
+  {
+    "id": "7130",
+    "faithfulness": 0.236,
+    "coverage": 0.291,
+    "fluency": 0.582,
+    "legal_reasoning": 0.151,
+    "overall": 0.315
+  },
+  {
+    "id": "6118",
+    "faithfulness": 0.464,
+    "coverage": 0.87,
+    "fluency": 0.645,
+    "legal_reasoning": 0.312,
+    "overall": 0.573
+  },
+  {
+    "id": "4860",
+    "faithfulness": 0.355,
+    "coverage": 0.404,
+    "fluency": 0.572,
+    "legal_reasoning": 0.213,
+    "overall": 0.386
+  },
+  {
+    "id": "660",
+    "faithfulness": 0.401,
+    "coverage": 0.833,
+    "fluency": 0.644,
+    "legal_reasoning": 0.256,
+    "overall": 0.533
+  },
+  {
+    "id": "3436",
+    "faithfulness": 0.511,
+    "coverage": 1,
+    "fluency": 0.737,
+    "legal_reasoning": 0.455,
+    "overall": 0.676
+  },
+  {
+    "id": "6276",
+    "faithfulness": 0.425,
+    "coverage": 0.714,
+    "fluency": 0.742,
+    "legal_reasoning": 0.375,
+    "overall": 0.564
+  },
+  {
+    "id": "2727",
+    "faithfulness": 0.506,
+    "coverage": 1,
+    "fluency": 0.709,
+    "legal_reasoning": 0.465,
+    "overall": 0.67
+  },
+  {
+    "id": "3356",
+    "faithfulness": 0.631,
+    "coverage": 1,
+    "fluency": 0.726,
+    "legal_reasoning": 0.42,
+    "overall": 0.694
+  },
+  {
+    "id": "1531",
+    "faithfulness": 0.389,
+    "coverage": 0.756,
+    "fluency": 0.581,
+    "legal_reasoning": 0.333,
+    "overall": 0.515
+  },
+  {
+    "id": "2609",
+    "faithfulness": 0.501,
+    "coverage": 1,
+    "fluency": 0.624,
+    "legal_reasoning": 0.357,
+    "overall": 0.621
+  },
+  {
+    "id": "1522",
+    "faithfulness": 0.518,
+    "coverage": 1,
+    "fluency": 0.711,
+    "legal_reasoning": 0.474,
+    "overall": 0.676
+  },
+  {
+    "id": "2392",
+    "faithfulness": 0.416,
+    "coverage": 0.925,
+    "fluency": 0.546,
+    "legal_reasoning": 0.203,
+    "overall": 0.522
+  },
+  {
+    "id": "1378",
+    "faithfulness": 0.635,
+    "coverage": 1,
+    "fluency": 0.718,
+    "legal_reasoning": 0.42,
+    "overall": 0.693
+  },
+  {
+    "id": "4071",
+    "faithfulness": 0.536,
+    "coverage": 0.662,
+    "fluency": 0.686,
+    "legal_reasoning": 0.528,
+    "overall": 0.603
+  },
+  {
+    "id": "3168",
+    "faithfulness": 0.176,
+    "coverage": 0.574,
+    "fluency": 0.523,
+    "legal_reasoning": 0.093,
+    "overall": 0.342
+  },
+  {
+    "id": "232",
+    "faithfulness": 0.16,
+    "coverage": 0.194,
+    "fluency": 0.558,
+    "legal_reasoning": 0.267,
+    "overall": 0.295
+  },
+  {
+    "id": "4568",
+    "faithfulness": 0.248,
+    "coverage": 0.478,
+    "fluency": 0.553,
+    "legal_reasoning": 0.092,
+    "overall": 0.343
+  },
+  {
+    "id": "2440",
+    "faithfulness": 0.276,
+    "coverage": 0.383,
+    "fluency": 0.723,
+    "legal_reasoning": 0.443,
+    "overall": 0.456
+  },
+  {
+    "id": "2913",
+    "faithfulness": 0.435,
+    "coverage": 0.75,
+    "fluency": 0.72,
+    "legal_reasoning": 0.365,
+    "overall": 0.568
+  },
+  {
+    "id": "1697",
+    "faithfulness": 0.193,
+    "coverage": 0.288,
+    "fluency": 0.727,
+    "legal_reasoning": 0.341,
+    "overall": 0.387
+  },
+  {
+    "id": "3844",
+    "faithfulness": 0.27,
+    "coverage": 0.287,
+    "fluency": 0.689,
+    "legal_reasoning": 0.227,
+    "overall": 0.368
+  },
+  {
+    "id": "5364",
+    "faithfulness": 0.108,
+    "coverage": 0.129,
+    "fluency": 0.722,
+    "legal_reasoning": 0.332,
+    "overall": 0.323
+  },
+  {
+    "id": "3542",
+    "faithfulness": 0.452,
+    "coverage": 1,
+    "fluency": 0.7,
+    "legal_reasoning": 0.274,
+    "overall": 0.607
+  },
+  {
+    "id": "266",
+    "faithfulness": 0.415,
+    "coverage": 0.92,
+    "fluency": 0.691,
+    "legal_reasoning": 0.335,
+    "overall": 0.59
+  },
+  {
+    "id": "3210",
+    "faithfulness": 0.272,
+    "coverage": 0.75,
+    "fluency": 0.727,
+    "legal_reasoning": 0.154,
+    "overall": 0.476
+  },
+  {
+    "id": "1974",
+    "faithfulness": 0.427,
+    "coverage": 0.68,
+    "fluency": 0.714,
+    "legal_reasoning": 0.297,
+    "overall": 0.53
+  },
+  {
+    "id": "6003",
+    "faithfulness": 0.176,
+    "coverage": 0.255,
+    "fluency": 0.716,
+    "legal_reasoning": 0.227,
+    "overall": 0.344
+  },
+  {
+    "id": "5141",
+    "faithfulness": 0.369,
+    "coverage": 0.426,
+    "fluency": 0.698,
+    "legal_reasoning": 0.427,
+    "overall": 0.48
+  },
+  {
+    "id": "2207",
+    "faithfulness": 0.393,
+    "coverage": 0.538,
+    "fluency": 0.729,
+    "legal_reasoning": 0.599,
+    "overall": 0.565
+  },
+  {
+    "id": "2593",
+    "faithfulness": 0.306,
+    "coverage": 0.661,
+    "fluency": 0.736,
+    "legal_reasoning": 0.263,
+    "overall": 0.492
+  },
+  {
+    "id": "1195",
+    "faithfulness": 0.368,
+    "coverage": 0.799,
+    "fluency": 0.706,
+    "legal_reasoning": 0.19,
+    "overall": 0.516
+  },
+  {
+    "id": "1406",
+    "faithfulness": 0.636,
+    "coverage": 1,
+    "fluency": 0.706,
+    "legal_reasoning": 0.383,
+    "overall": 0.681
+  },
+  {
+    "id": "2627",
+    "faithfulness": 0.388,
+    "coverage": 0.54,
+    "fluency": 0.655,
+    "legal_reasoning": 0.388,
+    "overall": 0.493
+  },
+  {
+    "id": "6270",
+    "faithfulness": 0.613,
+    "coverage": 0.919,
+    "fluency": 0.694,
+    "legal_reasoning": 0.413,
+    "overall": 0.66
+  },
+  {
+    "id": "3924",
+    "faithfulness": 0.305,
+    "coverage": 0.567,
+    "fluency": 0.685,
+    "legal_reasoning": 0.185,
+    "overall": 0.435
+  },
+  {
+    "id": "6778",
+    "faithfulness": 0.031,
+    "coverage": 0.039,
+    "fluency": 0.534,
+    "legal_reasoning": 0.162,
+    "overall": 0.191
+  },
+  {
+    "id": "2124",
+    "faithfulness": 0.66,
+    "coverage": 1,
+    "fluency": 0.653,
+    "legal_reasoning": 0.483,
+    "overall": 0.699
+  },
+  {
+    "id": "78",
+    "faithfulness": 0.417,
+    "coverage": 0.979,
+    "fluency": 0.732,
+    "legal_reasoning": 0.217,
+    "overall": 0.586
+  },
+  {
+    "id": "4316",
+    "faithfulness": 0.175,
+    "coverage": 0.292,
+    "fluency": 0.593,
+    "legal_reasoning": 0.091,
+    "overall": 0.288
+  },
+  {
+    "id": "1778",
+    "faithfulness": 0.535,
+    "coverage": 0.968,
+    "fluency": 0.611,
+    "legal_reasoning": 0.412,
+    "overall": 0.632
+  },
+  {
+    "id": "314",
+    "faithfulness": 0.446,
+    "coverage": 1,
+    "fluency": 0.694,
+    "legal_reasoning": 0.415,
+    "overall": 0.639
+  },
+  {
+    "id": "690",
+    "faithfulness": 0.306,
+    "coverage": 0.404,
+    "fluency": 0.698,
+    "legal_reasoning": 0.406,
+    "overall": 0.453
+  },
+  {
+    "id": "1789",
+    "faithfulness": 0.58,
+    "coverage": 1,
+    "fluency": 0.669,
+    "legal_reasoning": 0.318,
+    "overall": 0.642
+  },
+  {
+    "id": "2122",
+    "faithfulness": 0.083,
+    "coverage": 0.102,
+    "fluency": 0.651,
+    "legal_reasoning": 0.288,
+    "overall": 0.281
+  },
+  {
+    "id": "2796",
+    "faithfulness": 0.5,
+    "coverage": 0.837,
+    "fluency": 0.732,
+    "legal_reasoning": 0.337,
+    "overall": 0.601
+  },
+  {
+    "id": "6852",
+    "faithfulness": 0.294,
+    "coverage": 0.725,
+    "fluency": 0.548,
+    "legal_reasoning": 0.173,
+    "overall": 0.435
+  },
+  {
+    "id": "2649",
+    "faithfulness": 0.451,
+    "coverage": 0.998,
+    "fluency": 0.603,
+    "legal_reasoning": 0.289,
+    "overall": 0.585
+  },
+  {
+    "id": "6728",
+    "faithfulness": 0.603,
+    "coverage": 0.898,
+    "fluency": 0.69,
+    "legal_reasoning": 0.407,
+    "overall": 0.649
+  },
+  {
+    "id": "2052",
+    "faithfulness": 0.203,
+    "coverage": 0.506,
+    "fluency": 0.554,
+    "legal_reasoning": 0.081,
+    "overall": 0.336
+  },
+  {
+    "id": "5266",
+    "faithfulness": 0.045,
+    "coverage": 0.078,
+    "fluency": 0.728,
+    "legal_reasoning": 0.033,
+    "overall": 0.221
+  },
+  {
+    "id": "5248",
+    "faithfulness": 0.223,
+    "coverage": 0.322,
+    "fluency": 0.702,
+    "legal_reasoning": 0.128,
+    "overall": 0.344
+  },
+  {
+    "id": "2304",
+    "faithfulness": 0.298,
+    "coverage": 0.561,
+    "fluency": 0.542,
+    "legal_reasoning": 0.214,
+    "overall": 0.404
+  },
+  {
+    "id": "6881",
+    "faithfulness": 0.353,
+    "coverage": 0.491,
+    "fluency": 0.689,
+    "legal_reasoning": 0.325,
+    "overall": 0.464
+  },
+  {
+    "id": "6668",
+    "faithfulness": 0.435,
+    "coverage": 0.921,
+    "fluency": 0.58,
+    "legal_reasoning": 0.249,
+    "overall": 0.546
+  },
+  {
+    "id": "3531",
+    "faithfulness": 0.506,
+    "coverage": 0.705,
+    "fluency": 0.693,
+    "legal_reasoning": 0.36,
+    "overall": 0.566
+  },
+  {
+    "id": "415",
+    "faithfulness": 0.521,
+    "coverage": 1,
+    "fluency": 0.755,
+    "legal_reasoning": 0.324,
+    "overall": 0.65
+  },
+  {
+    "id": "3019",
+    "faithfulness": 0.55,
+    "coverage": 1,
+    "fluency": 0.745,
+    "legal_reasoning": 0.414,
+    "overall": 0.677
+  },
+  {
+    "id": "2248",
+    "faithfulness": 0.442,
+    "coverage": 0.789,
+    "fluency": 0.637,
+    "legal_reasoning": 0.418,
+    "overall": 0.571
+  },
+  {
+    "id": "715",
+    "faithfulness": 0.624,
+    "coverage": 1,
+    "fluency": 0.72,
+    "legal_reasoning": 0.44,
+    "overall": 0.696
+  },
+  {
+    "id": "5142",
+    "faithfulness": 0.492,
+    "coverage": 0.722,
+    "fluency": 0.707,
+    "legal_reasoning": 0.401,
+    "overall": 0.58
+  },
+  {
+    "id": "4938",
+    "faithfulness": 0.367,
+    "coverage": 0.528,
+    "fluency": 0.61,
+    "legal_reasoning": 0.28,
+    "overall": 0.446
+  },
+  {
+    "id": "2065",
+    "faithfulness": 0.382,
+    "coverage": 0.64,
+    "fluency": 0.687,
+    "legal_reasoning": 0.318,
+    "overall": 0.507
+  },
+  {
+    "id": "4641",
+    "faithfulness": 0.194,
+    "coverage": 0.28,
+    "fluency": 0.717,
+    "legal_reasoning": 0.242,
+    "overall": 0.358
+  },
+  {
+    "id": "380",
+    "faithfulness": 0.515,
+    "coverage": 1,
+    "fluency": 0.732,
+    "legal_reasoning": 0.344,
+    "overall": 0.648
+  },
+  {
+    "id": "7109",
+    "faithfulness": 0.426,
+    "coverage": 0.743,
+    "fluency": 0.579,
+    "legal_reasoning": 0.367,
+    "overall": 0.529
+  },
+  {
+    "id": "5707",
+    "faithfulness": 0.217,
+    "coverage": 0.379,
+    "fluency": 0.699,
+    "legal_reasoning": 0.266,
+    "overall": 0.39
+  },
+  {
+    "id": "5538",
+    "faithfulness": 0.354,
+    "coverage": 0.526,
+    "fluency": 0.676,
+    "legal_reasoning": 0.159,
+    "overall": 0.429
+  },
+  {
+    "id": "1762",
+    "faithfulness": 0.335,
+    "coverage": 0.596,
+    "fluency": 0.557,
+    "legal_reasoning": 0.073,
+    "overall": 0.39
+  },
+  {
+    "id": "652",
+    "faithfulness": 0.445,
+    "coverage": 1,
+    "fluency": 0.637,
+    "legal_reasoning": 0.303,
+    "overall": 0.596
+  },
+  {
+    "id": "496",
+    "faithfulness": 0.326,
+    "coverage": 0.888,
+    "fluency": 0.731,
+    "legal_reasoning": 0.227,
+    "overall": 0.543
+  },
+  {
+    "id": "5397",
+    "faithfulness": 0.255,
+    "coverage": 0.492,
+    "fluency": 0.733,
+    "legal_reasoning": 0.308,
+    "overall": 0.447
+  },
+  {
+    "id": "4782",
+    "faithfulness": 0.382,
+    "coverage": 0.496,
+    "fluency": 0.673,
+    "legal_reasoning": 0.364,
+    "overall": 0.479
+  },
+  {
+    "id": "2657",
+    "faithfulness": 0.547,
+    "coverage": 0.941,
+    "fluency": 0.594,
+    "legal_reasoning": 0.293,
+    "overall": 0.594
+  },
+  {
+    "id": "5937",
+    "faithfulness": 0.812,
+    "coverage": 1,
+    "fluency": 0.676,
+    "legal_reasoning": 0.417,
+    "overall": 0.726
+  },
+  {
+    "id": "4807",
+    "faithfulness": 0.584,
+    "coverage": 0.765,
+    "fluency": 0.676,
+    "legal_reasoning": 0.464,
+    "overall": 0.622
+  },
+  {
+    "id": "4451",
+    "faithfulness": 0.468,
+    "coverage": 0.761,
+    "fluency": 0.606,
+    "legal_reasoning": 0.295,
+    "overall": 0.532
+  },
+  {
+    "id": "1181",
+    "faithfulness": 0.666,
+    "coverage": 1,
+    "fluency": 0.697,
+    "legal_reasoning": 0.399,
+    "overall": 0.69
+  },
+  {
+    "id": "6245",
+    "faithfulness": 0.533,
+    "coverage": 0.878,
+    "fluency": 0.755,
+    "legal_reasoning": 0.33,
+    "overall": 0.624
+  },
+  {
+    "id": "3292",
+    "faithfulness": 0.418,
+    "coverage": 0.729,
+    "fluency": 0.676,
+    "legal_reasoning": 0.305,
+    "overall": 0.532
+  },
+  {
+    "id": "4917",
+    "faithfulness": 0.105,
+    "coverage": 0.131,
+    "fluency": 0.559,
+    "legal_reasoning": 0.144,
+    "overall": 0.234
+  },
+  {
+    "id": "6622",
+    "faithfulness": 0.233,
+    "coverage": 0.323,
+    "fluency": 0.734,
+    "legal_reasoning": 0.369,
+    "overall": 0.415
+  },
+  {
+    "id": "1329",
+    "faithfulness": 0.584,
+    "coverage": 1,
+    "fluency": 0.688,
+    "legal_reasoning": 0.563,
+    "overall": 0.709
+  },
+  {
+    "id": "3893",
+    "faithfulness": 0.331,
+    "coverage": 0.421,
+    "fluency": 0.717,
+    "legal_reasoning": 0.43,
+    "overall": 0.475
+  },
+  {
+    "id": "5888",
+    "faithfulness": 0.351,
+    "coverage": 0.526,
+    "fluency": 0.798,
+    "legal_reasoning": 0.367,
+    "overall": 0.511
+  },
+  {
+    "id": "6521",
+    "faithfulness": 0.169,
+    "coverage": 0.206,
+    "fluency": 0.745,
+    "legal_reasoning": 0.234,
+    "overall": 0.338
+  },
+  {
+    "id": "3602",
+    "faithfulness": 0.423,
+    "coverage": 1,
+    "fluency": 0.735,
+    "legal_reasoning": 0.336,
+    "overall": 0.623
+  },
+  {
+    "id": "6647",
+    "faithfulness": 0.243,
+    "coverage": 0.295,
+    "fluency": 0.707,
+    "legal_reasoning": 0.352,
+    "overall": 0.399
+  },
+  {
+    "id": "6157",
+    "faithfulness": 0.174,
+    "coverage": 0.214,
+    "fluency": 0.673,
+    "legal_reasoning": 0.137,
+    "overall": 0.3
+  },
+  {
+    "id": "6413",
+    "faithfulness": 0.556,
+    "coverage": 0.731,
+    "fluency": 0.712,
+    "legal_reasoning": 0.382,
+    "overall": 0.595
+  },
+  {
+    "id": "5471",
+    "faithfulness": 0.294,
+    "coverage": 0.375,
+    "fluency": 0.719,
+    "legal_reasoning": 0.408,
+    "overall": 0.449
+  },
+  {
+    "id": "3442",
+    "faithfulness": 0.259,
+    "coverage": 0.585,
+    "fluency": 0.736,
+    "legal_reasoning": 0.216,
+    "overall": 0.449
+  },
+  {
+    "id": "362",
+    "faithfulness": 0.274,
+    "coverage": 0.378,
+    "fluency": 0.714,
+    "legal_reasoning": 0.373,
+    "overall": 0.435
+  },
+  {
+    "id": "2035",
+    "faithfulness": 0.393,
+    "coverage": 0.846,
+    "fluency": 0.581,
+    "legal_reasoning": 0.224,
+    "overall": 0.511
+  },
+  {
+    "id": "5597",
+    "faithfulness": 0.546,
+    "coverage": 1,
+    "fluency": 0.632,
+    "legal_reasoning": 0.347,
+    "overall": 0.631
+  },
+  {
+    "id": "2256",
+    "faithfulness": 0.309,
+    "coverage": 0.54,
+    "fluency": 0.74,
+    "legal_reasoning": 0.295,
+    "overall": 0.471
+  },
+  {
+    "id": "5861",
+    "faithfulness": 0.273,
+    "coverage": 0.404,
+    "fluency": 0.546,
+    "legal_reasoning": 0.13,
+    "overall": 0.338
+  },
+  {
+    "id": "4480",
+    "faithfulness": 0.139,
+    "coverage": 0.171,
+    "fluency": 0.704,
+    "legal_reasoning": 0.304,
+    "overall": 0.329
+  },
+  {
+    "id": "784",
+    "faithfulness": 0.412,
+    "coverage": 0.802,
+    "fluency": 0.737,
+    "legal_reasoning": 0.342,
+    "overall": 0.573
+  }{
+  "faithfulness_avg": 0.38349000000000005,
+  "coverage_avg": 0.6560700000000003,
+  "fluency_avg": 0.6732300000000001,
+  "legal_reasoning_avg": 0.31213000000000013,
+  "grand_avg": 0.5062
+}
