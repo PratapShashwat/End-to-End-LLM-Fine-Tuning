@@ -1,32 +1,9 @@
 import json
-import re
 import matplotlib.pyplot as plt
 
-def load_all_metrics(eval_data, is_text=False):
-    """Dynamically parses the evaluation data, handling JSON or extracting via Regex if malformed."""
+def load_all_metrics(eval_data):
+    """Dynamically parses the evaluation JSON to extract all criteria scores."""
     metrics_data = []
-    
-    
-    if is_text:
-       
-        pattern = r'"id"\s*:\s*"(\d+)".*?"faithfulness"\s*:\s*([\d.]+).*?"coverage"\s*:\s*([\d.]+).*?"fluency"\s*:\s*([\d.]+).*?"legal_reasoning"\s*:\s*([\d.]+).*?"overall"\s*:\s*([\d.]+)'
-        matches = re.findall(pattern, eval_data, re.DOTALL | re.IGNORECASE)
-        
-        if matches:
-            for match in matches:
-                metrics_data.append({
-                    "id": str(match[0]),
-                    "faithfulness": float(match[1]),
-                    "coverage": float(match[2]),
-                    "fluency": float(match[3]),
-                    "legal_reasoning": float(match[4]),
-                    "average": float(match[5])
-                })
-            print(f"📄 Text fallback activated. Successfully extracted {len(metrics_data)} documents via Regex.")
-        else:
-            print("⚠️ Warning: Could not find matching ID/Score patterns in the text file.")
-        return metrics_data
-
     
     if isinstance(eval_data, list):
         for item in eval_data:
@@ -77,31 +54,26 @@ def load_all_metrics(eval_data, is_text=False):
                     "average": item.get("document_average", 0.0)
                 })
 
-    print(f"📋 Clean JSON detected. Successfully extracted {len(metrics_data)} documents.")
     return metrics_data
 
 def main():
-    #EVAL_FILE = "G_evaluation_results_onG.json"
-    #EVAL_FILE = "G_evaluation_results_onL.json"
-    EVAL_FILE = "G_evaluation_results_onQ.txt"
+    #input files
+    EVAL_FILE = "G_evaluation_results_onQ.txt"  
     
     try:
         with open(EVAL_FILE, 'r', encoding='utf-8') as f:
-            try:
-                eval_data = json.load(f)
-                is_text_file = False
-            except json.JSONDecodeError:
-                f.seek(0)
-                eval_data = f.read()
-                is_text_file = True
+            eval_data = json.load(f)
     except FileNotFoundError:
         print(f"Error: Could not find {EVAL_FILE}")
         return
+    except json.JSONDecodeError:
+        print(f"Error: {EVAL_FILE} is not a valid JSON file.")
+        return
 
-    metrics_data = load_all_metrics(eval_data, is_text=is_text_file)
+    metrics_data = load_all_metrics(eval_data)
 
     if not metrics_data:
-        print("Stopping execution: Could not extract metrics.")
+        print("Could not extract metrics. Check the file structure.")
         return
 
     metrics_data.sort(key=lambda x: x["average"])
@@ -115,17 +87,19 @@ def main():
 
     plt.figure(figsize=(14, 8))
 
+    
     plt.plot(ids, fluency, label='Fluency', color='green', alpha=0.6, linewidth=1.5)
     plt.plot(ids, faithfulness, label='Faithfulness', color='blue', alpha=0.6, linewidth=1.5)
     plt.plot(ids, coverage, label='Coverage', color='orange', alpha=0.6, linewidth=1.5)
     plt.plot(ids, legal_reasoning, label='Legal Reasoning', color='red', alpha=0.6, linewidth=1.5)
+    
     
     plt.plot(ids, average, label='OVERALL AVERAGE', color='black', linewidth=3, linestyle='--')
 
     plt.title(f"LLM Performance Across Criteria ({EVAL_FILE})\n*Sorted by Overall Average Score*", fontsize=14, fontweight='bold')
     plt.xlabel("Document IDs (Sorted Lowest to Highest Perfomance)", fontsize=12)
     plt.ylabel("Score (0.0 to 1.0)", fontsize=12)
-    plt.ylim(-0.05, 1.05) 
+    plt.ylim(-0.05, 1.05)
     
     if len(ids) > 20:
         plt.xticks([]) 
